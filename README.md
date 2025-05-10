@@ -7,7 +7,7 @@ This project implements a music genre classification system using various neural
 The dataset used is the GTZAN genre collection, stored in `/content/drive/MyDrive/Data/genres_original`. It contains audio files (WAV format) organized by genre, with each file sampled at 22,050 Hz. The dataset is accessed via Google Drive integration in a Google Colab environment.
 
 ## Project Structure
-- **Notebook**: `Copy_of_ml_project_(modelling).ipynb`
+- **Notebook**: `genre-based-classification-modelling.ipynb`
   - Contains code for:
     - Loading and preprocessing audio files using `librosa`.
     - Visualizing audio waveforms for EDA.
