@@ -31,10 +31,14 @@ pip install numpy matplotlib librosa scikit-learn tensorflow
 ```
 
 ## Setup Instructions
-1. **Clone the Repository** (if applicable):
-   ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+1. **Download data**:
+   ```python
+    import kagglehub
+
+    # Download latest version
+    path = kagglehub.dataset_download("andradaolteanu/gtzan-dataset-music-genre-classification")
+
+    print("Path to dataset files:", path)
    ```
 
 2. **Mount Google Drive**:
