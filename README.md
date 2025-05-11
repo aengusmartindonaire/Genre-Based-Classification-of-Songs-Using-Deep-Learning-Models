@@ -4,7 +4,7 @@
 This project implements a music genre classification system using various neural network architectures. The system processes audio files from the GTZAN dataset to classify music into different genres based on extracted audio features. The codebase includes data preprocessing, exploratory data analysis (EDA), and model training using Deep Neural Networks (DNN), Recurrent Neural Networks (RNN), and Convolutional Neural Networks (CNN).
 
 ## Dataset
-The dataset used is the GTZAN genre collection was downloaded at https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification and stored in `/content/drive/MyDrive/Data/genres_original`. It contains audio files (WAV format) organized by genre, with each file sampled at 22,050 Hz. The dataset is accessed via Google Drive integration in a Google Colab environment.
+The dataset used is the GTZAN genre collection was downloaded from https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification and stored in `/content/drive/MyDrive/Data/genres_original`. It contains audio files (WAV format) organized by genre, with each file sampled at 22,050 Hz. The dataset is accessed via Google Drive integration in a Google Colab environment.
 
 ## Project Structure
 - **Notebook**: `genre-based-classification-modelling.ipynb`
